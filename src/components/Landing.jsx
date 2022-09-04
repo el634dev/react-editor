@@ -212,7 +212,7 @@ const Landing = () => {
       />
 
       <a
-        href="https://github.com/manuarora700/react-code-editor"
+        href="https://github.com/el634dev/react-editor"
         title="Fork me on GitHub"
         class="github-corner"
         target="_blank"
@@ -224,7 +224,7 @@ const Landing = () => {
           viewBox="0 0 250 250"
           className="relative z-20 h-20 w-20"
         >
-          <title>Fork me on GitHub</title>
+          <title>Fork on GitHub</title>
           <path d="M0 0h250v250"></path>
           <path
             d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2"

@@ -42,3 +42,6 @@ Axios
 3. Run `npm install` for packages
 4. Run `npm run dev` to see your project in your browser
 5. Create your own code editor
+
+## License Note
+You can use the code just say where it came from

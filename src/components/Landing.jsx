@@ -59,7 +59,7 @@ const Landing = () => {
     setLanguage(sl);
   };
 
-  useEffect((handleCompile) => {
+  useEffect(() => {
     if (enterPress && ctrlPress) {
       console.log("enterPress", enterPress);
       console.log("ctrlPress", ctrlPress);

@@ -45,3 +45,6 @@ Axios
 
 ## License Note
 You can use the code just say where it came from
+
+## Deployment
+I choose to use Vercel to deploy this project

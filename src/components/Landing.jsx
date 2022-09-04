@@ -59,7 +59,7 @@ const Landing = () => {
     setLanguage(sl);
   };
 
-  useEffect(() => {
+  useEffect((handleCompile) => {
     if (enterPress && ctrlPress) {
       console.log("enterPress", enterPress);
       console.log("ctrlPress", ctrlPress);
@@ -81,7 +81,7 @@ const Landing = () => {
     setProcessing(true);
     const formData = {
       language_id: language.id,
-      // encode source code in base64
+      // encode source code
       source_code: btoa(code),
       stdin: btoa(customInput),
     };
@@ -110,11 +110,11 @@ const Landing = () => {
         // get error status
         let status = err.response.status;
         console.log("status", status);
-        if (status === 429) {
+        if (status === 50) {
           console.log("too many requests", status);
 
           showErrorToast(
-            `Quota of 100 requests exceeded for the Day! Please read the blog on freeCodeCamp to learn how to setup your own RAPID API Judge0!`,
+            `Quota of 50 requests exceeded for the Day!`,
             10000
           );
         }

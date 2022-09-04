@@ -30,7 +30,7 @@ Axios
 
 ## Extra Features
 
-1. Add more languages [DONE]
+1. Add more languages
 2. User login, authentication and registration (Firebase Auth)
 3. User Profile Page
 4. Save code functionality (Firestore - use Slug based approach)

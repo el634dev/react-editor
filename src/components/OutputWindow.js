@@ -5,7 +5,7 @@ const OutputWindow = ({ outputDetails }) => {
     let statusId = outputDetails?.status?.id;
 
     if (statusId === 6) {
-      // Compilation error
+      // compilation error
       return (
         <pre className="px-2 py-1 font-normal text-xs text-red-500">
           {atob(outputDetails?.compile_output)}

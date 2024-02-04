@@ -1,7 +1,7 @@
 # CodeBuddy - Compile and Execute code in 40+ languages
 
-⚡️ A code editor that compiles and runs your code on the web in your browser.
-Read this blog for more in-depth: <a href="https://www.freecodecamp.org/news/how-to-build-react-based-code-editor/" target="__blank">Build A Code IDE with React</a>
+> ⚡️ A code editor that compiles and runs your code on the web in your browser.
+> Read this blog for more in-depth: <a href="https://www.freecodecamp.org/news/how-to-build-react-based-code-editor/" target="__blank">Build A Code IDE with React</a>
 
 <img src="https://github.com/manuarora700/react-code-editor/blob/main/demo.png" />
 
